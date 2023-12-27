@@ -8,15 +8,11 @@ import Link from "next/link"
 
 const Navbar = () => {
     return (
-        <div className="flex justify-between items-center w-full h-20 z-10">
-            <div className="flex items-center">
-                <Image src={Logo} alt="my-logo" height={60} width={60}/>
-            </div>
-
+        <div className="flex justify-between items-center w-full h-20">
             <div className="flex items-center space-x-10">
                 {NAVTEXT.map(links => (
-                    <ul key={links.id}>
-                        <Link className="text-black" href={links.href}>{links.title}</Link>
+                    <ul className="text-slate-50" key={links.id}>
+                        <Link className="text-slate-50" href={links.href}>{links.title}</Link>
                     </ul>
                 ))}
             </div>

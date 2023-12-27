@@ -3,7 +3,7 @@ import HeroSection from '@/components/HeroSection'
 
 const Home = () => {
   return (
-    <div className='px-20 py-10'>
+    <div className='px-0 py-0'>
       <HeroSection />
       <div>
         djrimr
