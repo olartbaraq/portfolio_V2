@@ -1,13 +1,12 @@
 import Image from 'next/image'
 import HeroSection from '@/components/HeroSection'
+import About from '@/components/Aboutme'
 
 const Home = () => {
   return (
     <div className='px-0 py-0'>
       <HeroSection />
-      <div>
-        djrimr
-      </div>
+      <About />
     </div>
   )
 }
