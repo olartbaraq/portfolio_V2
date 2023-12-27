@@ -11,7 +11,7 @@ import { NAVTEXT } from '@/texts/navbartext';
 
 const HeroSection = () => {
     return (
-        <div className='hidden lg:block shape-container'>
+        <section className='hidden lg:block shape-container'>
             <div className="rectangle left-shape max-h-max lg:w-[600px] xl:w-full">
                 <div className='w-full px-20 py-20 flex flex-col lg:space-y-10 xl:space-y-24 items-start'>
                     <div className="flex items-start">
@@ -64,7 +64,7 @@ const HeroSection = () => {
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
     )
 }
 
