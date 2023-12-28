@@ -2,7 +2,7 @@ import Image from 'next/image'
 import HeroSection from '@/components/HeroSection'
 import About from '@/components/Aboutme'
 import Skills from '@/components/Skillsection'
-
+import PortfolioSection from '@/components/PortfolioSection'
 
 
 
@@ -12,6 +12,7 @@ const Home = () => {
       <HeroSection />
       <About />
       <Skills />
+      <PortfolioSection />
     </div>
   )
 }
