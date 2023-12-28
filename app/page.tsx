@@ -1,12 +1,17 @@
 import Image from 'next/image'
 import HeroSection from '@/components/HeroSection'
 import About from '@/components/Aboutme'
+import Skills from '@/components/Skillsection'
+
+
+
 
 const Home = () => {
   return (
     <div className='px-0 py-0'>
       <HeroSection />
       <About />
+      <Skills />
     </div>
   )
 }
