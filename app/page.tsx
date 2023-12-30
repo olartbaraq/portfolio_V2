@@ -3,16 +3,17 @@ import HeroSection from '@/components/HeroSection'
 import About from '@/components/Aboutme'
 import Skills from '@/components/Skillsection'
 import PortfolioSection from '@/components/PortfolioSection'
-
+import ContactMe from '@/components/ContactMe'
 
 
 const Home = () => {
   return (
-    <div className='px-0 py-0'>
+    <div className='max-w-screen-xl mx-auto px-0 py-0'>
       <HeroSection />
       <About />
       <Skills />
       <PortfolioSection />
+      <ContactMe />
     </div>
   )
 }

@@ -1,8 +1,9 @@
 import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
+import { Alef } from 'next/font/google'
 import './globals.css'
+import { Toaster } from "@/components/ui/sonner"
 
-const inter = Inter({ subsets: ['latin'] })
+const alef = Alef({ subsets:['latin'], weight: "400", style: "normal", fallback: ['Monospace', 'helvetica'] })
 
 export const metadata: Metadata = {
   title: 'Portfolio- Mubaraq Akanbi',
@@ -16,7 +17,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={alef.className}>
+        <main>{children}</main>
+        <Toaster />
+        </body>
     </html>
   )
 }

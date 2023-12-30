@@ -27,8 +27,8 @@ const HeroSection = () => {
         <>
             {/* dektop navbar and hero section */}
 
-            <section className='hidden md:block shape-container'>
-                <div className="rectangle left-shape max-h-max md:w-[600px] xl:w-full">
+            <main className='hidden md:block shape-container'>
+                <div className="rectangle left-shape max-h-max md:w-[600px] bg-gray-100 xl:w-full">
                     <div className='w-full px-20 py-20 flex flex-col md:space-y-20 xl:space-y-24 items-start'>
                         <div className="flex items-start">
                             <Image src={Logo} alt="my-logo" height={70} width={70}/>
@@ -80,7 +80,7 @@ const HeroSection = () => {
                         </div>
                     </div>
                 </div>
-            </section>
+            </main>
 
             {/* mobile navbar and background image */}
             

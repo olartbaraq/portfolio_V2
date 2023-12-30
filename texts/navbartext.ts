@@ -11,8 +11,8 @@ export const NAVTEXT = [
     },
     {
         id: 3,
-        title: "Portfolio",
-        href: "#portfolio" as const
+        title: "Projects",
+        href: "#projects" as const
     },
     {
         id: 4,
