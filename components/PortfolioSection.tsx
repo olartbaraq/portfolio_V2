@@ -56,7 +56,7 @@ const PortfolioSection = () => {
                                                                 <div key={project.id} className="relative w-full">
                                                                     <Image src={project.image} alt="project_image" height={500} width={500}/>
                                                                     {/* {isHovered ? ( */}
-                                                                        <div className="bg-zinc-600 mix-blend-hard-light border rounded-full h-5/6 w-5/6 flex items-center justify-center absolute top-5 py-16 md:left-5 xl:left-10 "
+                                                                        <div className="opacity-0 hover:opacity-100 bg-zinc-600 mix-blend-hard-light border rounded-full h-5/6 w-5/6 flex items-center justify-center absolute top-5 py-16 md:left-5 xl:left-10 "
                                                                             // onMouseEnter={() => setIsHovered(true)}
                                                                             // onMouseLeave={() => setIsHovered(false)}
                                                                         >
